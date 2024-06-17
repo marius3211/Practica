@@ -55,7 +55,7 @@
         </div>
         <div class="info col-lg me-3"> 
         <div class="circl mb-3"><i class="fa-solid fa-puzzle-piece"></i></div>
-            <h4>Cross-Platform Play</h4>
+            <h4>Cross-Platform Play</h4> 
             <p>Play with friends on different platforms seamlessly, whether you're on console, PC, or mobile.</p>
         </div>
         <div class="info col-lg me-3"> 
