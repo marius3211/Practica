@@ -44,7 +44,7 @@
     </div>
     
 </header>
-<div class="container title d-flex flex-column justify-content-center align-items-center flex-lg-row my-5">
+<div id="explore" class="container title d-flex flex-column justify-content-center align-items-center flex-lg-row my-5">
         <h2 class="text-white ">Explore LvlUp</h2>
     </div>
     <div class="description container">
@@ -72,7 +72,7 @@
 </div>
 <!-- End Header -->
 <!-- Auctions -->
-<div class="container title d-flex flex-column align-items-center flex-lg-row my-5 text-white"><h2>Discover the Most Popular Games</h2></div> <!--titlu-->
+<div id="games" class="container title d-flex flex-column align-items-center flex-lg-row my-5 text-white"><h2>Discover the Most Popular Games</h2></div> <!--titlu-->
 <div class="swiper auctionsSwiper container ">
         <div class="swiper-wrapper">
             <!-- Card 1 -->
@@ -313,7 +313,7 @@
     </div>
 </section>
 </div>
-<section class="collections my-5 py-5">
+<section id="collections" class="collections my-5 py-5">
     <div class="container">
         <div class="row">
             @foreach($collections as $collection)
@@ -345,23 +345,24 @@
     </div>
 </section>
 <!-- End Collections -->
-<section class="contact">
+<section id="contact" class="contact">
     <div class="container title d-flex flex-column justify-content-between align-items-center flex-lg-row my-5">
         <h2 class="text-white text-center text-lg-start">Contact us</h2>
     </div>
     <div class="container text-white">
         <form action="/action_page.php">
           <label for="fname">Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input class="text-white" type="text" id="fname" name="firstname" placeholder="Your name..">
       
           <label for="lname">Email</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your email..">
+          <input class="text-white" type="text" id="lname" name="lastname" placeholder="Your email..">
       
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <textarea class="text-white" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
+          <input  type="submit" value="Submit">
         </form>
       </div>
 </section>
 @endsection
+    

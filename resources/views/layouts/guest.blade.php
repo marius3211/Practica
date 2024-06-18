@@ -28,9 +28,9 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
                     <div class="navbar-nav col-6 menu z-2">
                         <a class="nav-link active" href="#">About</a>
-                        <a class="nav-link active" href="#">Games</a>
-                        <a class="nav-link active" href="#">Contact</a>
-                        <a class="nav-link active" href="#">Community</a>
+                        <a class="nav-link active" href="#games">Games</a>
+                        <a class="nav-link active" href="#collections">Community</a>
+                        <a class="nav-link active" href="#contact">Contact</a>
                     </div>
                     <div class="col-4 ">
                             <form class="d-flex" role="search">
